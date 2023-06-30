@@ -18,8 +18,12 @@ Now I am looking for my first job as a developer.
 ## Skills
 
 HTML
+
 CSS
-Git, Github
+
+Git
+
+Github
 
 ## Coding examples
 
@@ -38,11 +42,13 @@ console.log(totalPayment);
 
 
 ## Experience/Portfolio
-[My github][https://churakovaalyona.github.io/landmarks/].
+[My github](https://churakovaalyona.github.io/)
 
 ## Education
 Moscow International Institute (English teacher) - 2020
+
 Netology Frontend course - 2023
+
 RS school Frontend course - 2023
 
 ## Languages
