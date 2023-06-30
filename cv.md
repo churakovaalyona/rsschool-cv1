@@ -3,8 +3,11 @@ Alena Churakova
 
 ## Contacts
 Tel.:+79160903653
+
 Email: churakovaalyona@gmail.com
+
 Discord nickname : churakovaalyona
+
 
 ## About me
 My full name is Alena Churakova.
@@ -20,16 +23,19 @@ Git, Github
 
 ## Coding examples
 
-```function calculateTotalMortgage(percent, contribution, amount, monthsQuantity) {
+```js
+function calculateTotalMortgage(percent, contribution, amount, monthsQuantity) {
 	const monthlyPercent = percent / 100 / 12;
 	const loanAmount = amount - contribution;
 	const monthlyPayment = loanAmount * (monthlyPercent + (monthlyPercent / (Math.pow(1 + monthlyPercent, monthsQuantity) - 1)));
 	const totalPayment = monthlyPayment * monthsQuantity;
 	const roundedTotalPayment = Math.round(totalPayment * 100) / 100;
 	return roundedTotalPayment;
-}
+    }
 const totalPayment = calculateTotalMortgage(10, 20000, 150000, 12);
-console.log(totalPayment);```
+console.log(totalPayment); 
+```
+
 
 ## Experience/Portfolio
 [My github][https://churakovaalyona.github.io/landmarks/].
