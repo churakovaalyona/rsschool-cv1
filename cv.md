@@ -20,7 +20,7 @@ Git, Github
 
 ## Coding examples
 
-function calculateTotalMortgage(percent, contribution, amount, monthsQuantity) {
+```function calculateTotalMortgage(percent, contribution, amount, monthsQuantity) {
 	const monthlyPercent = percent / 100 / 12;
 	const loanAmount = amount - contribution;
 	const monthlyPayment = loanAmount * (monthlyPercent + (monthlyPercent / (Math.pow(1 + monthlyPercent, monthsQuantity) - 1)));
@@ -29,7 +29,7 @@ function calculateTotalMortgage(percent, contribution, amount, monthsQuantity) {
 	return roundedTotalPayment;
 }
 const totalPayment = calculateTotalMortgage(10, 20000, 150000, 12);
-console.log(totalPayment);
+console.log(totalPayment);```
 
 ## Experience/Portfolio
 [My github][https://churakovaalyona.github.io/landmarks/].
